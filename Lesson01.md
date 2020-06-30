@@ -115,3 +115,59 @@ Do you really want to exit ([y]/n)? y
 
 ## WRITING AND EXECUTING CODE IN A JUPYTER NOTEBOOK
 
+* Opening Jupyter in your browser
+* Creating a new Jupyter Notebook
+* Renaming the Notebook
+* Evaluating an expression
+* Adding and executing another cell
+* Opening and executing an existing notebook
+* Closing JupyterLab
+
+#### LAUNCH JUPYTER LAB
+```
+Anaconda
+
+(base) C:\Windows\system32>cd C:\Users\jrbla\PycharmProjects\PaulDeitelPythonFundamentals\examples\ch01
+
+(base) C:\Users\jrbla\PycharmProjects\PaulDeitelPythonFundamentals\examples\ch01>jupyter lab
+```
+
+#### Accidentaly close your browser?
+http://localhost:8888/lab
+
+#### Close Jupyter Lab
+* Close browser window
+* Go to terminal / CMD
+* ctrl+C x2
+
+```
+Anaconda
+
+[I 19:29:04.845 LabApp] Shutting down 2 kernels
+[I 19:29:05.151 LabApp] Kernel shutdown: 7f4d3a9d-70dc-4f5d-88b0-200a024fb2c9
+[I 19:29:05.152 LabApp] Kernel shutdown: 1ab12244-1dfa-4d3c-bfcb-caba3623ebda
+
+(base) C:\Users\jrbla\PycharmProjects\PaulDeitelPythonFundamentals\examples\ch01>
+```
+
+#### JUPYTER LAB TIPS
+
+* Can execute the current cell and add a new one below it
+    * shift + enter
+* Display line number within each cell, select Show Line Numbers from JupyterLabs View menu
+
+
+#### MORE INFO ON JUPYTERLAB
+
+* See the Jupyter team's introduction to JupyerLab
+    * https://jupyterlab.readthedocs.io/en/stable/index.html
+* Quick overview
+    * Click Overview under Getting Started
+* Under User  Guide, read the introductions to
+    * The JupyterLab interface
+    * Working with files
+    * Text Editor
+    * Notebooks
+
+
+
